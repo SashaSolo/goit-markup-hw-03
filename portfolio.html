@@ -5,7 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Портфолио</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +32,7 @@
             <a class="nav-link link" href="index.html">Студия</a>
           </li>
           <li class="header-item">
-            <a class="nav-link link" href="portfolio.html">Портфолио</a>
+            <a class="nav-link link current" href="portfolio.html">Портфолио</a>
           </li>
           <li class="header-item">
             <a class="nav-link link" href="./">Контакты</a>
@@ -47,169 +54,176 @@
     </header>
     <!-- Основной блок -->
     <section class="projects">
-      <!-- Кнопки -->
-      <h1 class="project-title">Список работ</h1>
-      <ul class="project-list-btn">
-        <li class="project-item-btn">
-          <button class="project-btn" type="button">Все</button>
-        </li>
-        <li class="project-item-btn">
-          <button class="project-btn" type="button">Веб-сайты</button>
-        </li>
-        <li class="project-item-btn">
-          <button class="project-btn" type="button">Приложения</button>
-        </li>
-        <li class="project-item-btn">
-          <button class="project-btn" type="button">Дизайн</button>
-        </li>
-        <li class="project-item-btn">
-          <button class="project-btn" type="button">Маркетинг</button>
-        </li>
-      </ul>
-      <!-- Постеры -->
-      <ul class="project-list">
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/web-site-techcrack.jpg"
-                alt="web-site-techcrack"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project">Технокряк</h2>
-              <p class="title-class">Веб-сайт</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/poster-basketball.jpg"
-                alt="poster-basketball"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project">
-                Постер <span lang="en">New Orlean vs Golden State</span>
-              </h2>
-              <p class="title-class">Дизайн</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/app-restaurant.jpg"
-                alt="app-restaurant"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project">Ресторан Seafood</h2>
-              <p class="title-class">Приложение</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/marketing-headphones.jpg"
-                alt="marketing-headphones"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project">Проект <span lang="en">Prime</span></h2>
-              <p class="title-class">Маркетинг</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/app-boxes.jpg"
-                alt="app-boxes"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project">Проект <span lang="en">Boxes</span></h2>
-              <p class="title-class">Приложение</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/web-site-noborders.jpg"
-                alt="web-site-noborders"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project" lang="en">
-                Inspiration has no Borders
-              </h2>
-              <p class="title-class">Веб-сайт</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/design-book.jpg"
-                alt="design-book"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project">
-                Издание <span lang="en">Limited Edition</span>
-              </h2>
-              <p class="title-class">Дизайн</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/marketing-lab.jpg"
-                alt="marketing-lab"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project">Проект <span lang="en">LAB</span></h2>
-              <p class="title-class">Маркетинг</p>
-            </a>
-          </div>
-        </li>
-        <li class="project-item">
-          <div class="project-decoration">
-            <a class="project-link">
-              <img
-                class="project-img"
-                src="images/app-business.jpg"
-                alt="app-business"
-                width="370"
-                height="294"
-              />
-              <h2 class="title-project" lang="en">Growing Business</h2>
-              <p class="title-class">Приложение</p>
-            </a>
-          </div>
-        </li>
-      </ul>
+      <div class="container">
+        <!-- Кнопки -->
+        <h1 class="project-title">Список работ</h1>
+        <ul class="project-list-btn">
+          <li class="project-item-btn">
+            <button class="project-btn" type="button">Все</button>
+          </li>
+          <li class="project-item-btn">
+            <button class="project-btn" type="button">Веб-сайты</button>
+          </li>
+          <li class="project-item-btn">
+            <button class="project-btn" type="button">Приложения</button>
+          </li>
+          <li class="project-item-btn">
+            <button class="project-btn" type="button">Дизайн</button>
+          </li>
+          <li class="project-item-btn">
+            <button class="project-btn" type="button">Маркетинг</button>
+          </li>
+        </ul>
+        <!-- Постеры -->
+        <ul class="project-list">
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/web-site-techcrack.jpg"
+                  alt="web-site-techcrack"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project">Технокряк</h2>
+                <p class="title-class">Веб-сайт</p>
+              </a>
+            </div>
+          </li>
+
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/poster-basketball.jpg"
+                  alt="poster-basketball"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project">
+                  Постер <span lang="en">New Orlean vs Golden State</span>
+                </h2>
+                <p class="title-class">Дизайн</p>
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/app-restaurant.jpg"
+                  alt="app-restaurant"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project">Ресторан Seafood</h2>
+                <p class="title-class">Приложение</p>
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/marketing-headphones.jpg"
+                  alt="marketing-headphones"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project">
+                  Проект <span lang="en">Prime</span>
+                </h2>
+                <p class="title-class">Маркетинг</p>
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/app-boxes.jpg"
+                  alt="app-boxes"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project">
+                  Проект <span lang="en">Boxes</span>
+                </h2>
+                <p class="title-class">Приложение</p>
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/web-site-noborders.jpg"
+                  alt="web-site-noborders"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project" lang="en">
+                  Inspiration has no Borders
+                </h2>
+                <p class="title-class">Веб-сайт</p>
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/design-book.jpg"
+                  alt="design-book"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project">
+                  Издание <span lang="en">Limited Edition</span>
+                </h2>
+                <p class="title-class">Дизайн</p>
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/marketing-lab.jpg"
+                  alt="marketing-lab"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project">Проект <span lang="en">LAB</span></h2>
+                <p class="title-class">Маркетинг</p>
+              </a>
+            </div>
+          </li>
+          <li class="project-item">
+            <div class="project-decoration">
+              <a class="project-link">
+                <img
+                  class="project-img"
+                  src="images/app-business.jpg"
+                  alt="app-business"
+                  width="370"
+                  height="294"
+                />
+                <h2 class="title-project" lang="en">Growing Business</h2>
+                <p class="title-class">Приложение</p>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
     <!-- Футер -->
     <footer class="footer">

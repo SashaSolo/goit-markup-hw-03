@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,46 +18,54 @@
     <!-- Шапка сайта -->
     <header class="header">
       <nav class="header-nav">
-        <a class="header-logo-main link" href="./"
-          ><span class="header-logo-blue link">Web</span>Studio</a
-        >
+        <div class="logo-dsgn">
+          <a class="header-logo-main link" href="./"
+            ><span class="header-logo-blue link">Web</span>Studio</a
+          >
+        </div>
         <ul>
-          <li class="header-item">
-            <a class="nav-link link" href="index.html">Студия</a>
-          </li>
-          <li class="header-item">
-            <a class="nav-link link" href="portfolio.html">Портфолио</a>
-          </li>
-          <li class="header-item">
-            <a class="nav-link link" href="./">Контакты</a>
-          </li>
+          <div class="nav-container">
+            <li class="header-item">
+              <a class="nav-link link current" href="index.html">Студия</a>
+            </li>
+            <li class="header-item">
+              <a class="nav-link link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="header-item">
+              <a class="nav-link link" href="./">Контакты</a>
+            </li>
+          </div>
         </ul>
       </nav>
       <ul>
-        <li class="header-item">
-          <a class="header-contacts link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="header-item">
-          <a class="header-contacts link" href="tel:+380961111111"
-            >+38 096 111 11 11</a
-          >
-        </li>
+        <div class="mail-container">
+          <li class="header-item">
+            <a class="header-contacts link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <div class="tel-container"><li class="header-item">
+            <a class="header-contacts link" href="tel:+380961111111"
+              >+38 096 111 11 11</a
+            ></div>
+          </li>
+        </div>
       </ul>
     </header>
     <!-- Основной блок -->
     <main>
       <!-- Герой -->
       <section class="hero">
+        <div class="container">
         <h1 class="hero-title">
           Эффективные решения <br />
           для вашего бизнеса
         </h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <button class="hero-button" type="button">Заказать услугу</button></div>
       </section>
       <!-- Особенности -->
       <section class="spec">
+        <div class="container">
         <ul class="spec-list">
           <li class="spec-item">
             <h3 class="spec-title">Внимание к деталям</h3>
@@ -86,10 +95,11 @@
               плановых заданий.
             </p>
           </li>
-        </ul>
+        </ul></div>
       </section>
       <!-- Чем занимаемся -->
       <section class="directions">
+        <div class="container">
         <h2 class="directions-title">Чем мы занимаемся</h2>
         <ul class="directions-list">
           <li class="directions-works">
@@ -111,10 +121,11 @@
               height="294"
             />
           </li>
-        </ul>
+        </ul></div>
       </section>
       <!-- Команда -->
       <section class="team">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
         <ul class="team-list">
           <li class="team-item">
@@ -170,6 +181,7 @@
             </div>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <!-- Футер -->
