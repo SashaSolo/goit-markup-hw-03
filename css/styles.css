@@ -46,9 +46,11 @@ li {
 .container {
   width: 1200px;
   margin: 0 auto;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
+
 /* ---------------------HEADER--------------------------- */
+
 .header-container {
   height: 80px;
   display: flex;
@@ -172,7 +174,7 @@ li {
 
 .spec-list {
   display: flex;
-  margin-top: 94px;
+  padding-top: 94px;
 }
 
 .spec-item:not(:last-child) {
@@ -194,10 +196,14 @@ li {
 }
 
 /* ----------------MAIN-PAGE--DIRECTIONS--------------------- */
+.directions {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
 
 .directions-list {
   display: flex;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .directions-works + .directions-works {
@@ -209,12 +215,11 @@ li {
   line-height: 1.16;
   text-align: center;
   color: var(--second-title-color);
-  margin-top: 94px;
 }
 
 /* ----------------MAIN-PAGE--TEAM--------------------- */
 .team {
-  margin-top: 94px;
+  margin-top: 47px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: #f5f4fa;
@@ -228,7 +233,7 @@ li {
 }
 
 .team-list {
-  margin-top: 50px;
+  padding-top: 50px;
   display: flex;
 }
 
