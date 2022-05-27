@@ -73,11 +73,17 @@ li {
   /* outline: 1px solid red; */
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* ---------------------HEADER--------------------------- */
 
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+  border: 1px solid #ececec;
 }
 
 .header-logo-main {
@@ -191,9 +197,8 @@ li {
 }
 
 /* ----------------MAIN-PAGE--SPEC--------------------- */
-
 .spec {
-  padding-top: 94px;
+  padding-bottom: 0px;
 }
 
 .spec-list {
@@ -223,10 +228,6 @@ li {
 }
 
 /* ----------------MAIN-PAGE--DIRECTIONS--------------------- */
-.directions {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 
 .directions-title {
   font-size: 36px;
@@ -246,8 +247,6 @@ li {
 
 /* ----------------MAIN-PAGE--TEAM--------------------- */
 .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
   background-color: #f5f4fa;
 }
 
@@ -307,12 +306,15 @@ li {
   justify-content: center;
 }
 
+.project-item-btn {
+  margin-bottom: 50px;
+}
+
 .project-item-btn:not(:last-child) {
   margin-right: 8px;
 }
 
 .project-btn {
-  margin-bottom: 50px;
   height: 38px;
   padding: 6px 22px;
   font-family: inherit;
