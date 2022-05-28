@@ -83,7 +83,7 @@ li {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-logo-main {
@@ -159,7 +159,8 @@ li {
 }
 
 .hero-content {
-  padding: 200px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -275,8 +276,12 @@ li {
   border-radius: 0px 0px 4px 4px;
 }
 
+.container-text {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .teammate-name {
-  margin-top: 30px;
   font-weight: 500;
   font-size: var(--font-size-main);
   line-height: 1.18;
@@ -413,8 +418,8 @@ li {
   color: var(--main-title-color);
 }
 
-.footer-list {
-  margin-top: 10px;
+.footer-item {
+  margin-top: 9px;
 }
 
 .footer-contacts {
